@@ -1,0 +1,12 @@
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<p-button (onClick)="runCD()">Run ChangeDetection</p-button>
+<br/>
+
+<p-dropdown #dropdown appendTo="body" [options]="values" [(ngModel)]="selValue"></p-dropdown>
+
+<p>Selected Value: {{selValue }}</p>
+
+
